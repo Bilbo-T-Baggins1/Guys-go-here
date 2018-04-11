@@ -1,0 +1,101 @@
+# first input, question to the user
+
+import webbrowser
+
+# loop
+var = 1
+while var == 1:
+    # first input, question to the user
+    web = input('Where you want to go ')
+
+    # options for the user
+    if web == ('reddit'):
+        webbrowser.open('https://www.reddit.com/')
+        print('enjoy the front page of the internet! p.s. I recommend 50-50 or watchpeopledie')
+
+    elif web == ('youtube'):
+        webbrowser.open('https://www.youtube.com/')
+        print('Big Money Salvia Over and Out!')
+
+    elif web == ('pornhub'):
+        webbrowser.open('https://www.pornhub.com/')
+        print('Cya in 5 minutes you cuck')
+
+    elif web == ('facebook'):
+        print('are you fucking crazy? I do not want papa Zucc to spy in on us')
+
+    elif web == ('myspace'):
+        webbrowser.open('https://myspace.com/')
+        print('Cringe lvl = 100')
+
+    elif web == ('hackerrank'):
+        webbrowser.open('https://www.hackerrank.com/')
+        print('Gotta level up those scripts')
+
+    elif web == ('netflix'):
+        webbrowser.open('https://www.netflix.com/')
+        print('Rubber should be your first watch')
+
+    elif web == ('linkedin'):
+        webbrowser.open('https://www.linkedin.com/')
+        print('Professional AF')
+
+    elif web == ('microsoft'):
+        webbrowser.open('https://www.microsoft.com/en-us/')
+        print('EAT ME')
+
+    elif web == ('instagram'):
+        webbrowser.open('https://www.instagram.com/')
+        print('I don"t need inspiration quotes, just show me your tits')
+
+    elif web == ('wikipedia'):
+        webbrowser.open('https://www.wikipedia.org/')
+        print('Check out "That Guy Who Was In That Thing"')
+
+    elif web == ('yahoo'):
+        webbrowser.open('https://www.yahoo.com/')
+        print('Yahoo is just a poor ripoff of Yoo-Hoo.')
+
+    elif web == ('amazon'):
+        webbrowser.open('https://www.amazon.com/')
+        print('Helping you spend your money in the most convenient way possible.')
+
+    elif web == ('twitter'):
+        webbrowser.open('https://twitter.com')
+        print('Twittle my twat.')
+
+    elif web == ('ebay'):
+        webbrowser.open('https://www.ebay.com/')
+        print('Buy my shit you goddamn stupid bitch.')
+
+    elif web == ('bing'):
+        webbrowser.open('https://www.bing.com/')
+        print('Why?')
+
+    elif web == ('imgur'):
+        webbrowser.open('https://imgur.com/')
+        print('Shitty version of IFunny.')
+
+    elif web == ('whatsapp'):
+        webbrowser.open('https://www.whatsapp.com/')
+        print('Just get a real phone plan like everyone else you cheap cunt.')
+
+    elif web == ('xhamster'):
+        webbrowser.open('https://xhamster.com/')
+        print('You"ll regret this later.')
+
+    elif web == ('weather'):
+        webbrowser.open('https://www.accuweather.com/')
+        print('It Gon Rain')
+
+    elif web == ('virus'):
+        webbrowser.open('https://www.virustotal.com/#/home/upload')
+        print('Its like a condom for downloading links')
+
+    elif web == ('outlook'):
+        webbrowser.open('https://outlook.live.com/owa/')
+        print('It"s like a cult but at least it"s not apple')
+
+    # error message for the user
+    else:
+        print('nah nigga')
